@@ -1,0 +1,37 @@
+{
+  "name": "canonical-url",
+  "version": "0.0.1",
+  "description": "Canonical a URL for shaozi.info",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilik52/canonical-url.git"
+  },
+  "keywords": [
+    "url",
+    "canonical"
+  ],
+  "author": "kilik52",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kilik52/canonical-url/issues"
+  },
+  "homepage": "https://github.com/kilik52/canonical-url#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-string": "^1.2.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "normalize-url": "^1.6.0",
+    "object-assign": "^4.1.0",
+    "prepend-http": "^1.0.4",
+    "punycode": "^2.0.0",
+    "qs": "^6.2.1",
+    "query-string": "^4.2.3",
+    "sort-keys": "^1.1.2"
+  }
+}
